@@ -141,18 +141,6 @@ const Experience = () => {
             style: 'shadow-sky-400'
         },
         {
-            id: 19,
-            src: nextjs,
-            title: 'Next JS',
-            style: 'shadow-white'
-        },
-        {
-            id: 20,
-            src: graphql,
-            title: 'GraphQL',
-            style: 'shadow-pink-400'
-        },
-        {
             id: 21,
             src: github,
             title: 'GitHub',

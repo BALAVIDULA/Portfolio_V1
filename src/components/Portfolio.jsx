@@ -1,37 +1,37 @@
 import React from 'react'
-import arrayDestruct from '../assets/portfolio/arrayDestruct.jpg'
-import installNode from '../assets/portfolio/installNode.jpg'
-import navbar from '../assets/portfolio/navbar.jpg'
-import reactParallax from '../assets/portfolio/reactParallax.jpg'
-import reactSmooth from '../assets/portfolio/reactSmooth.jpg'
-import reactWeather from '../assets/portfolio/reactWeather.jpg'
+import faceRecognition from '../assets/portfolio/faceRecognition.jpg'
+import spamEmail from '../assets/portfolio/spamEmail.png'
+import plantDetection from '../assets/portfolio/plantDetection.jpg'
+import realEstate2 from '../assets/portfolio/realEstate2.jpg'
+import pizzaDashboard from '../assets/portfolio/pizzaDashboard.png'
+import nextWordPrediction from '../assets/portfolio/nextWordPrediction.png'
 
 const Portfolio = () => {
 
     const portfolios = [
         {
             id:1,
-            src: arrayDestruct
+            src: faceRecognition
         },
         {
             id:2,
-            src: reactParallax
+            src: realEstate2
         },
         {
             id:3,
-            src: navbar
+            src: plantDetection
         },
         {
             id:4,
-            src: reactSmooth
+            src: pizzaDashboard
         },
         {
             id:5,
-            src: installNode
+            src: spamEmail
         },
         {
             id:6,
-            src: reactWeather
+            src: nextWordPrediction
         },
     ];
 

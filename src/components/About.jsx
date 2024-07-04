@@ -32,7 +32,7 @@ const About = () => {
               I am driven by a passion for applying{" "}
               <span className="glow-text">AI and machine learning</span> to
               tackle real-world challenges. Over the past{" "}
-              <span className="glow-text">1.5 years</span>, I've focused on
+              <span className="glow-text">4.5 years</span>, I've focused on
               mastering{" "}
               <span className="glow-text">Python, Machine Learning, NLP,</span>{" "}
               and <span className="glow-text">Data Analytics</span>.
@@ -55,7 +55,7 @@ const About = () => {
               </span>{" "}
               and{" "}
               <span className="glow-text">forecasting financial insights</span>{" "}
-              have honed my expertise.
+              have improvised my expertise.
             </p>
           </li>
 
@@ -69,7 +69,7 @@ const About = () => {
               Empowerment Cell, I've served as{" "}
               <span className="glow-text">Joint Secretary</span> and now guide
               as <span className="glow-text">Club Advisor</span>, championing
-              initiatives that promote empowerment and inclusion.
+              initiatives that promote empowerment.
             </p>
           </li>
         </ul>
