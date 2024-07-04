@@ -13,7 +13,7 @@ const About = () => {
   return (
     <div
       name="about"
-      className="w-full pt-24 md:pt-32 min-h-screen text-white bg-gradient-to-b from-black via-black-400 to-gray-800"
+      className="w-full pt-24 md:pt-0 text-white bg-gradient-to-b from-black via-black-400 to-gray-800"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-2 md:pb-6">

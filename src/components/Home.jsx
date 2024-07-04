@@ -8,9 +8,9 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="pt-24 md:pt-32 w-full bg-gradient-to-b from-gray-800 via-black-400 to-black"
+      className="pt-24 md:pt-32 min-h-screen w-full bg-gradient-to-b from-gray-800 via-black-400 to-black"
     >
-      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
+      <div className="max-w-screen-lg mx-auto flex flex-col justify-start items-start h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full md:mr-8 mb-8 md:mb-24">
           <h2 className="text-3xl sm:text-5xl md:text-6xl font-bold text-white whitespace-nowrap">
             I'm Bala Vidula
@@ -105,7 +105,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="md:mt-0">
+        <div className="md:pt-14">
           <img
             src={HeroImage}
             alt="my profile"
