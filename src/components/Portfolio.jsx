@@ -10,28 +10,40 @@ const Portfolio = () => {
 
     const portfolios = [
         {
-            id:1,
-            src: faceRecognition
+            id: 1,
+            src: faceRecognition,
+            demoLink: 'https://github.com/BALAVIDULA/face_verification',
+            codeLink: 'https://github.com/BALAVIDULA/face_verification'
         },
         {
-            id:2,
-            src: realEstate2
+            id: 2,
+            src: realEstate2,
+            demoLink: 'https://mern-real-estate-proj.pages.dev/',
+            codeLink: 'https://github.com/BALAVIDULA/Real_Estate_ReactJS'
         },
         {
-            id:3,
-            src: plantDetection
+            id: 3,
+            src: plantDetection,
+            demoLink: 'https://github.com/BALAVIDULA/plant_disease_detection',
+            codeLink: 'https://github.com/BALAVIDULA/plant_disease_detection'
         },
         {
-            id:4,
-            src: pizzaDashboard
+            id: 4,
+            src: pizzaDashboard,
+            demoLink: 'https://github.com/BALAVIDULA/BALAVIDULA-PowerBI_Restaurant_Dashboard',
+            codeLink: 'https://github.com/BALAVIDULA/BALAVIDULA-PowerBI_Restaurant_Dashboard'
         },
         {
-            id:5,
-            src: spamEmail
+            id: 5,
+            src: spamEmail,
+            demoLink: 'https://balavidula.netlify.app/',
+            codeLink: 'https://balavidula.netlify.app/'
         },
         {
-            id:6,
-            src: nextWordPrediction
+            id: 6,
+            src: nextWordPrediction,
+            demoLink: 'https://github.com/BALAVIDULA/Next_word_prediction_using_RNN',
+            codeLink: 'https://github.com/BALAVIDULA/Next_word_prediction_using_RNN'
         },
     ];
 
@@ -50,7 +62,7 @@ const Portfolio = () => {
 
 
                 <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
-                    {portfolios.map(({id, src}) => (
+                    {portfolios.map(({id, src, demoLink, codeLink}) => (
                         <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
                             <img 
                                 src={src} 
@@ -58,12 +70,16 @@ const Portfolio = () => {
                                 className='rounded-md duration-200 hover:scale-105' 
                             />
                             <div className='flex items-center justify-center'>
-                                <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>
-                                    Demo
-                                </button>
-                                <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>
-                                    Code
-                                </button>
+                                <a href={demoLink} target="_blank" rel="noopener noreferrer" className='w-1/2'>
+                                    <button className='w-full px-6 py-3 m-4 duration-200 hover:scale-105'>
+                                        Demo
+                                    </button>
+                                </a>
+                                <a href={codeLink} target="_blank" rel="noopener noreferrer" className='w-1/2'>
+                                    <button className='w-full px-6 py-3 m-4 duration-200 hover:scale-105'>
+                                        Code
+                                    </button>
+                                </a>
                             </div>
                         </div>
                     ))}  
