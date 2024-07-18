@@ -30,7 +30,7 @@ const Portfolio = () => {
         {
             id: 4,
             src: pizzaDashboard,
-            demoLink: 'https://github.com/BALAVIDULA/BALAVIDULA-PowerBI_Restaurant_Dashboard',
+            demoLink: 'https://drive.google.com/file/d/1ENQ5Im2IVZaFhghl0Oyj39edcTAEwvdx/view?usp=sharing',
             codeLink: 'https://github.com/BALAVIDULA/BALAVIDULA-PowerBI_Restaurant_Dashboard'
         },
         {
