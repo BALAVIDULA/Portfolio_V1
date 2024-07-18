@@ -17,9 +17,9 @@ function App() {
       <Experience />
       <Contact />
       <SocialLinks />
-      <div className="fixed bottom-0 right-0">
+      {/*<div className="fixed bottom-0 right-0">
         <Chatbot />
-      </div>
+      </div>*/}
     </div>
   );
 }

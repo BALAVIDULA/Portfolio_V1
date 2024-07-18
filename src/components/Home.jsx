@@ -84,8 +84,7 @@ const Home = () => {
             <br />
             <br />
             Explore my projects, experiences, and journey in the world of AI and
-            machine learning here, and chat with my interactive chatbot for
-            deeper insights!
+            machine learning here!
           </p>
 
           <br></br>
