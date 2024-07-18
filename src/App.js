@@ -1,5 +1,5 @@
 import About from "./components/About";
-import Chatbot from "./components/Chatbot";
+//import Chatbot from "./components/Chatbot";
 import Contact from "./components/Contact";
 import Experience from "./components/Experience";
 import Home from "./components/Home";
